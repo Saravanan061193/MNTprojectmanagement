@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: mnt-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node backend/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: ENCRYPTION_KEY
+        value: e4349147eb862f92f76711685ef34eb5188f5888e6319803855a40134f54d194
+      - key: CORS_ORIGIN
+        value: https://mntprojectmanagement.vercel.app
