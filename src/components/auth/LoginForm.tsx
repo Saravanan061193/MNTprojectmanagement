@@ -30,7 +30,7 @@ export default function LoginForm() {
                 errorMessage = err.response.data?.msg || `Server Error: ${err.response.status}`;
             } else if (err.request) {
                 // Request was made but no response received
-                errorMessage = "Network Error: No response from server. Check if backend is running.";
+                errorMessage = "Network Error: If you are on Vercel, the backend is not connected. Please use the Localhost version.";
             } else {
                 // Something else happened
                 errorMessage = err.message;
