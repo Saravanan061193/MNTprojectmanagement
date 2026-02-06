@@ -38,6 +38,12 @@ app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/assets', assetRoutes);
 app.use('/api/clients', clientRoutes);
 
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-});
+// Export for Vercel
+module.exports = app;
+
+// Only start the server if running directly (not required by Vercel)
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log(`Server running on port ${PORT}`);
+    });
+}
