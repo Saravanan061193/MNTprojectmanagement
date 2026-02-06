@@ -1,0 +1,22 @@
+PROJECT DOCUMENTATION & CREDENTIALS
+===================================
+
+1. ENVIRONMENT VARIABLES
+------------------------
+[Local Development]
+Frontend (.env): NEXT_PUBLIC_API_URL=http://localhost:5000
+Backend (.env):  PORT=5000, MONGODB_URI=..., JWT_SECRET=..., ENCRYPTION_KEY=...
+
+[Production (Vercel)]
+Frontend: NEXT_PUBLIC_API_URL=https://mn-tprojectmanagement.vercel.app
+Backend:  Set MONGODB_URI, JWT_SECRET, ENCRYPTION_KEY in Vercel Dashboard.
+
+2. DEPLOYMENT STEPS
+-------------------
+- Backend Config: Root Directory = "backend"
+- Frontend Config: Root Directory = "frontend"
+
+3. COMMANDS
+-----------
+- Start Local: Double click `start_app.bat`
+- Push Updates: `git add .`, `git commit -m "msg"`, `git push`
