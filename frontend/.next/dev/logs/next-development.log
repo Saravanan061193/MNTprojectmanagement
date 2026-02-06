@@ -1,4 +1,4 @@
-[00:00:03.056] Server  LOG     ✓ Ready in 2.2s
-[00:00:21.362] Server  LOG     API Base URL: "http://localhost:5000"
-[00:00:21.795] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:22.070] Browser LOG     API Base URL: http://localhost:5000
+[00:00:01.919] Server  LOG     ✓ Ready in 1400ms
+[00:00:02.724] Server  LOG     API Base URL: "http://localhost:5000"
+[00:00:03.146] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.756] Browser LOG     API Base URL: http://localhost:5000
