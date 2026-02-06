@@ -1,10 +1,4 @@
-[00:00:02.492] Server  LOG     ✓ Ready in 1795ms
-[00:00:03.695] Server  LOG     API Base URL: "http://localhost:5000"
-[00:00:04.201] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:04.427] Browser LOG     API Base URL: http://localhost:5000
-[00:00:04.758] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:04.823] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.177] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.269] Browser LOG     API Base URL: http://localhost:5000
-[00:00:06.359] Browser LOG     API Base URL: http://localhost:5000
-[00:00:06.359] Browser LOG     API Base URL: http://localhost:5000
+[00:00:03.056] Server  LOG     ✓ Ready in 2.2s
+[00:00:21.362] Server  LOG     API Base URL: "http://localhost:5000"
+[00:00:21.795] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:22.070] Browser LOG     API Base URL: http://localhost:5000
