@@ -6,7 +6,7 @@ echo Current Directory: %CD%
 start "Backend Server" cmd /k "cd backend && node server.js"
 timeout /t 5 >nul
 start http://localhost:3000
-start "Frontend Application" cmd /k "npm run dev"
+start "Frontend Application" cmd /k "cd frontend && npm run dev"
 
 echo ---------------------------------------------------
 echo Services are launching...
